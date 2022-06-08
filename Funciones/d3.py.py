@@ -24,7 +24,6 @@ q_ciudades = int(input("Ingrese la cantidad de ciudades a analizar: "))
 
 while q_ciudades != 0:
     lista_total.append(int(input('¿Cuantos arboles plantó la ciudad?: ')))
-    #lista_total.sorted
     q_ciudades -= 1
     
 
