@@ -1,0 +1,133 @@
+
+def sumarle1(i=0):
+    return i+10
+sumarle1()
+
+#def MostrarPy():
+#    print("MMMMMMMMMMMMMMMMMMMMMM0'                                '0MMMMMMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMMWNNNk,                                'kNNNWMMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMNo...,cooooooooooooooooooooooooooooooooc,...oNMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .lkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkl.   :NMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .:oooc;,,;cooooooooooooooooooooooo:.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .,ccc'    ':cccccccccccccccccccccc,.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMX:    ,:::,.  .'::::::::::ccccccccccccc,.   :NMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMX:    .,,,,'''',,,,,,,,,,;:cccccccccccc,.   :NMMMMMMMMMMMMMMMMM")
+#    print("MMMMWNNNNNNNNNNNNK;    .'''''''''''''''''',:cccccccccccc,.   ;KNNNNNNNNNNNNWMMMM")
+#    print("MMMXl''''''''''''..                       .:cccccccccccc,.    .''''''''''''lXMMM")
+#    print("MMMK;                                     .;cccccccccccc,.                 ;KMMM")
+#    print("llll:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:cccccccccccc,.   .:cccccccccccclllll")
+#    print("   .ckkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkxlcccccccccccc,.   ;KWNNNNNNNNNNNd.   ")
+#    print("    :xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxdlcccccccccccc,.   ;KNNNNNNNNNNNNd.   ")
+#    print("    ,ccccccccccccccccccccccccccccccccccccccccccccccccccc,.   ;0XKKKKKKKKKKKo.   ")
+#    print("    ,ccccccccccccccccccccccccccccccccccccccccccccccccccc,.   ;OKKKKKKKKKKKKo.   ")
+#    print("    ,ccccccccccccc:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;'    ;OKKKKKKKKKKKKo.   ")
+#    print("    ,ccccccccccccc;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.    ;OKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:'......................................    ;OKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.                                          ;OKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.    ......................................c0KKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.   .dKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.   .kNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXKKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.   .xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKKKKKKKKKKo.   ")
+#    print("    ,cccccccccccc:.   .xKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKo.   ")
+#    print("    '::::::::::::;.   .xKKKKKKKKKKKKKK00000KKKK00000000000000000KK000000000o.   ")
+#    print("    .,,,,,,,,,,,,'.   .xKKKKKKKKKKKKK00O000000OOOOOOOOOO0000000000OOOOOOOO0l.   ")
+#    print(".....''''''''''''..   .xKKKKKKKKKKKK0kxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc'...")
+#    print("KKKO,                 .xKKKKKKKKKKKKO;.....................................;OXKK")
+#    print("MMMX;                 .xKKKKKKKKKKKKk'                                     ;XMMM")
+#    print("MMMWOddddddddddddo.   .dKKKKKKKKKKKK0xoooooooooooooooooo:.   .oddddddddddddOWMMM")
+#    print("MMMMMMMMMMMMMMMMMX:   .xKKKKKKKKKKKKXNNNNNNNNNNNWNNNNNWWk.   :NMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMX:   .xKKKKKKKKKKKKKXXNNXXNXXXOdddx0XNNx.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .xKKKKKKKKKKKKKKKKKKKKKK0c   .oKKKx.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .dKKKKKKKKKKKKKKKKKKKKKK0l....oKKKd.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .o00000000000000000000000kxddxO000o.   :NMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMN:   .o0OOOOOOOOOOO0OOOOOOOOOOOO000OOO0o.   :XMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMWOdool:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:loodOWMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMMMMMM0'                                '0MMMMMMMMMMMMMMMMMMMMMM")
+#    print("MMMMMMMMMMMMMMMMMMMMMM0'                                '0MMMMMMMMMMMMMMMMMMMMMM")
+#MostrarPy()
+
+def mult(n1,n2):
+    return n1*n2
+
+def main():
+    
+
+    
+    #Para i=0, i<4, i++
+    #En python empieza iterando en 0
+
+    print('A continuacion \nSalto de \nLinea' )
+
+    print('------------------------------------\n Estruct. Repetitivas y condicionales')
+
+    for i in range(4):
+        if i == 0:
+            print('primera iteracion', i+1)
+
+        elif i ==1:
+            print('Estas en la segunda iteracion')
+        else: 
+            print('Estas en la tercera o cuarta iteracion')
+
+
+    print('------------- \n')
+
+    i = 0
+    while i <= 3:
+        if i == 0:
+            print(i)
+        elif i == 1:
+            print(i)
+        elif i == 2:
+            print(i)
+        else:
+            print(i)
+        i+=1
+
+    #ActivarMenu = True
+    #while ActivarMenu != False:
+    #    print('Estas in brother dentro del bucle')
+    #    ActivarMenu = bool(input('Desea utilizar nuevamente el programa? Seguir: Ingrese cualquier cosa, sino enter'))
+    #    print(ActivarMenu)
+
+    
+
+    #funciones y proced
+    print('------------------------------------\n Func y proced')
+    print('Funcion que suma +10:')
+    i = sumarle1(i)
+    print(i)
+    #14 * 14 = 196
+    print(mult(i,i))
+
+    #listas en py
+    print('------------------------------------\n LISTAS')
+    l1 = ['pan',10,True]
+    # indices [0] [1] [2]
+    #Que puedo hacer con las listas?
+    #Imprimir
+    print(l1[:])
+    #acceder a una cantidad de elementos finita de la lista
+    print(l1[0:2])
+    #imprimir el contenido de un solo elemento de la lista(VECTOR)
+    listarda = ["hola","como","estas","esto","es"]
+    #imprimir desde un lista[ elemento < elemento2 ]
+    print(listarda[0:3])
+    #imprimir desde un elemento en adelante
+    print(listarda[0:])
+
+    print('------------------------------------\n LISTAS Que se puede hacer?')
+
+    # .append(elemento) - agregar un elem
+    # .insert(posicion,elemento) - insertar en una pos especifica un elem
+    # .extend([elem,elem,elem]) - agregar varios elem
+    # .index(elemento) -  conocer la pos del elem
+    # nomElemento IN nomLista - Conocer si existe en la lista el elem
+    # .remove(elemento) - remover un elem
+    # #elimina ult elemento .pop() - remover el ult elem
+    # #operaciones matematicas en listas - se puede multiplicar sumar restar listas
+
+    # tip: mantener alt para mover una linea, ctl alt -> selec varias lineas
+
+
+main()
