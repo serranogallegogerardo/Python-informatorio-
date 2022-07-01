@@ -1,9 +1,0 @@
-def recMultiplicacion(x,y):
-    if  y == 0 :
-        return 0
-    elif y < 0:
-        return - (x - recMultiplicacion(x,y+1))
-    else:
-        return x + recMultiplicacion(x,y-1)
-        
-print(recMultiplicacion(2,3))
