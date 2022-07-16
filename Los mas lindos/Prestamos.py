@@ -17,6 +17,8 @@ class Solicitantes():
     self.telefonoCasa = telefonoCasa
     self.telefonoMovil = telefonoMovil
     self.fechaTentativa = fechaTentativa
+    
+preferi usar como un dict esto...
 """
 
 class Prestamos():
