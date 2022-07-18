@@ -1,0 +1,25 @@
+#Encapsulamiento y property..
+
+class Personas:
+    def __init__(self, genero):
+        self.__genero = genero
+
+    @property #getter
+    def genero(self):
+        return self.__genero
+    # gracias a este property pierde la privacidad 
+    # por lo tanto se puede obtener por objeto.genero
+
+    @genero.setter
+    # a pesar de que es privado, se puede cambiar por setter y getter
+    def set_genero(self, valorgenero):
+        if valorgenero != "X":
+            print("Modificando el valor")
+            self.__genero = valorgenero
+            print("El genero no es X")
+        else:
+            print("El genero es X")
+            
+persona = Personas('M')
+print(persona.genero)
+persona.set_genero = 'X'
